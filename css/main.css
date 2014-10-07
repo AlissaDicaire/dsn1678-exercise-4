@@ -13,3 +13,33 @@ img {
 section {
 	padding: 10rem 0;
 }
+
+.sun {
+	width: 300px;	
+}
+
+.sun-section {
+	background: transparent url("../img/mars-pano.jpg") no-repeat center top;	
+	background-size: cover;
+}
+
+.dipper {
+	width: 200px;
+	opacity: 0;	
+}
+
+.js-dipper-fade {
+	/* Don't forget the other webkits!*/
+	-webkit-animation: dipper-fade 1s linear;	
+}
+
+/* Don't forget the other webkits!*/
+@-webkit-keyframes dipper-fade {
+	0% {
+	opacity: 0;	
+	}
+	
+	100% {
+	opacity: 1;
+	}
+}
