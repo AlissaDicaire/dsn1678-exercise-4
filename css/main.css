@@ -75,9 +75,28 @@ section {
 .ship-3,
 .ship-4 {
 	width: 200px;
-	display: inline-block;	
+	display: inline-block;
+	postion: relative;
+	top: 20px;
 }
 
-.ship-section-2 {
-	background-image: transparent url(../img/kasei-valles-canyons.jpg) no-repeat center top;	
+.ship-3-section {
+	background: transparent url(../img/kasei-valles-canyons.jpg) no-repeat center top;	
+	text-align: center;
+}
+
+.js-ship2-fade {
+	-webkit-animation: ship-fade 1s linear forwards;	
+}
+
+@-webkit-keyframes ship2-fade {
+	0% {
+	opacity: 0;	
+	top: 20px;
+	}
+	
+	100% {
+	opacity: 1;
+	top: 0px;
+	}
 }
