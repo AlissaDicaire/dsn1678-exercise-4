@@ -30,7 +30,7 @@ section {
 
 .js-dipper-fade {
 	/* Don't forget the other webkits!*/
-	-webkit-animation: dipper-fade 1s linear;	
+	-webkit-animation: dipper-fade 1s linear forwards;	
 }
 
 /* Don't forget the other webkits!*/
@@ -42,4 +42,42 @@ section {
 	100% {
 	opacity: 1;
 	}
+}
+
+.ship-1 {
+	width: 200px;	
+	position: relative;
+	top: 20px;
+	opacity: 0;
+}
+
+.ship-1-section {
+	background-color: rgba(249,176,21,1.00);	
+}
+
+.js-ship-fade {
+	-webkit-animation: ship-fade 1s linear forwards;	
+}
+
+@-webkit-keyframes ship-fade {
+	0% {
+	opacity: 0;	
+	top: 20px;
+	}
+	
+	100% {
+	opacity: 1;
+	top: 0px;
+	}
+}
+
+.ship-2,
+.ship-3,
+.ship-4 {
+	width: 200px;
+	display: inline-block;	
+}
+
+.ship-section-2 {
+	background-image: transparent url(../img/kasei-valles-canyons.jpg) no-repeat center top;	
 }
