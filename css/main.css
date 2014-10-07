@@ -76,7 +76,7 @@ section {
 .ship-4 {
 	width: 200px;
 	display: inline-block;
-	postion: relative;
+	position: relative;
 	top: 20px;
 }
 
@@ -86,7 +86,7 @@ section {
 }
 
 .js-ship2-fade {
-	-webkit-animation: ship-fade 1s linear forwards;	
+	-webkit-animation: ship2-fade 1s linear forwards;	
 }
 
 @-webkit-keyframes ship2-fade {
